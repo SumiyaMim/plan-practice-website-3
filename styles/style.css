@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Khand:wght@600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn1{
+    background-color: #F15B22;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn1:hover{
+    background-color: #ee561a;
+    color: white;
+}
+.btn2{
+    background-color: white;
+    color: #F15B22;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn2:hover{
+    background-color: #F15B22;
+    color: white;
+}
+.banner{
+    background-image: url("../images/banner/banner1.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.banner-content{
+    text-align: right;
+    width: 50%;
+    margin-right: 10%;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.year{
+    display: flex;
+    align-items: center;
+    margin: 80px 200px 80px 200px;
+}
+.year-content{
+    margin-left: 150px;
+    margin-top: 5%;
+}
+.year-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.year-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    margin-top: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+ul{
+    list-style: none;
+}
+ul li:before{
+    content: '✓';
+    color: #16D887;
+    font-weight: bold;
+    margin: 10px;
+}
+.desc{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    margin-left: -10px;
+    line-height: 1.5;
+}
+.my-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 120px 80px 120px;
+    text-align: center;
+    line-height: 1.5;
+}
+.icon{
+    width: 80px;
+}
+.plan-title{
+    font-size: 20px;
+}
+.plan-desc{
+    font-weight: 400;
+    font-size: 15px;
+    color: #6b6b6b;
+}
+.mind{
+    padding: 10px 20px 80px 20px;
+}
+.mindset{
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    padding: 40px;
+    background-size: 920px 200px;
+    background-position: center;
+}
+.mindset-title{
+    color: white;
+    margin-bottom: 15px;
+}
+.mindset-content{
+    margin-left: 200px;
+}
+.footer-container{
+    display: flex;
+    background-color: black;
+    padding: 100px 50px 100px 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer1{
+    line-height: 3;
+}
+.footer-title{
+    font-size: 35px;
+}
+.footer-description{
+    font-size: 15px;
+    line-height: 1.5;
+}
+.contact{
+    font-size: 15px;
+    font-weight: 400;
+}
+.media{
+    margin-top: 15px;
+}
+.media a{
+    margin-right: 20px;
+}
+.subscribe{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer2 input[type="email"]{
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    color: white;
+}
