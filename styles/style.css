@@ -119,8 +119,9 @@ ul li:before{
     padding: 10px 20px 80px 20px;
 }
 .mindset{
-    background-image: url("../images/watch.png");
+    background-image: linear-gradient(rgba(241,91,34,9), rgba(241,91,34,0.2)), url("../images/watch.png");
     background-repeat: no-repeat;
+    background-blend-mode:screen;
     padding: 40px;
     background-size: 920px 200px;
     background-position: center;
